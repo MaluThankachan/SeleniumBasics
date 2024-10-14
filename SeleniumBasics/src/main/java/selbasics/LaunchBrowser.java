@@ -20,6 +20,7 @@ public class LaunchBrowser {
 		System.out.println(url);
 		// to refresh the url
 		driver.get("https://flipkart.com");
+		System.out.println("Hello");
 
 		
 	}
