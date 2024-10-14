@@ -15,7 +15,8 @@ public class IdLocatorExample {
 		WebElement emailidfield = driver.findElement(By.id("email")); // to identify web element
 		emailidfield.click();
 		emailidfield.sendKeys("testdata");
-
+		//Am adding a new statement
+		driver.close();
 	}
 
 }
